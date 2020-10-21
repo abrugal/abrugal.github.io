@@ -17,6 +17,6 @@ aside.left {
 	float: inherit;
 }
 
-iframe {
-	width: 600px;
+.map iframe {
+	width: 100%;
 }
