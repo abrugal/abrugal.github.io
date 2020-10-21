@@ -16,3 +16,7 @@ aside.left {
 	text-align: center;
 	float: inherit;
 }
+
+iframe {
+	width: 100%;
+}
