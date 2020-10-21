@@ -124,3 +124,8 @@ footer {
 p.foot {
   margin:0;
 }
+
+.map iframe {
+  width: 600px;
+  height: 450px;
+}
