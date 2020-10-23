@@ -1,0 +1,22 @@
+.container {
+	width: 100%;
+	margin: 0;
+}
+
+.hero img{
+	border-radius: 0;
+}
+
+aside.right {
+	text-align: center;
+	float: inherit;
+}
+
+aside.left {
+	text-align: center;
+	float: inherit;
+}
+
+iframe {
+	width: 600px;
+}
