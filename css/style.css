@@ -15,7 +15,25 @@
 }
 
 body {
-	background: lightblue;
+	background: #99CBAC;
+	font-family: 'Commissioner', sans-serif;
+}
+
+.container {
+	text-align: center;
+	width: 75%;
+	margin: 0 auto;
+	background: white;
+}
+
+li {
+	list-style-position: outside;
+}
+
+@media only screen and (min-width: 800px) {
+	.container {
+		width: 820px;
+	}
 }
 
 
