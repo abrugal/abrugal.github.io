@@ -83,3 +83,9 @@ html, body {
 	pointer-events: none;
 }
 
+@media only screen and (max-width: 600px) {
+  #soundcloud-player .col-left {
+  	width: 10%;
+  	min-width: 150px;
+  }
+}
