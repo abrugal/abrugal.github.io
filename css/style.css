@@ -36,4 +36,10 @@ li {
 	}
 }
 
+a {
+	text-decoration: none;
+}
+.not-working {
+	text-decoration: line-through;
+}
 
