@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Type</title>
+		<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+		<link rel="stylesheet" type="text/css" href="CSS/main.css">
+		
+	</head>
+
+	<body>
+
+		<div style="height: 200px; background: #0D1B2E;; ">
+			<p style="margin: 0 auto; color: white; text-align: center; max-width: 550px; font-size: 40px; line-height: 200px;font-weight: bold;">Test Your Typing Speed</p>
+		</div>
+
+		<div style="height: 200px; background: #429890;">
+			<p style="margin: 0 auto; color: white; max-width: 550px; text-align:center; font-size: 30px; padding-top: 40px;">Duplicate the provided text EXACTLY as shown. Timer starts when you start typing and ends once you match the text.</p>
+		</div>
+
+		<section id="main">
+			<div class="original-text">
+				<p></p>
+			</div>
+			<!--original-text-->
+
+			<div class="text-wrapper">
+				<textarea class="text" name="textarea" rows="6" placeholder="The timer starts when you start typing"></textarea>
+			</div>
+			<!--text-wrapper-->
+			
+		</section>
+		<!--main-->
+
+		<div class="end">
+			<section class="clock clearfix">
+				<div class="timer">00:00:00</div>
+			</section>
+			<button class="reset clearfix">Start Over</button>
+		</div>
+		<!--end-->
+
+		<div class = "result">
+			<p class="stylish">
+				You Got:
+			</p>
+			<p class="stylish wpm"></p>
+		</div>
+		<!--result-->
+		
+
+		<script type="text/javascript" src="main.js"></script>	
+	</body>
+</html>
