@@ -143,7 +143,7 @@ function removeWPM(){
 
 //Gets a random paragraph using metaphorpsum API
 
-var url = 'http://metaphorpsum.com/paragraphs/1';
+var url = 'https://metaphorpsum.com/paragraphs/1';
 
 function getRandomParagraph(url){
 		var metaphorpsumAJAXCall = new XMLHttpRequest();
